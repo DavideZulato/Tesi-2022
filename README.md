@@ -9,3 +9,5 @@ Code for the work "A fair workflow in HR analyics"
 - Matching.R per identificare (con pacchetto matchit) un impatto causale della feature sensibile $S$ sulla probabilità di ottenere un outcome positivo creando un counterfactual group con observational data. 
 
 - Reweighting the data.R per costruire i pesi custom sulla base del codice python in Responsible AI (https://link.springer.com/book/10.1007/978-3-030-76860-7)
+
+- Fairness_sim_data GBM.R contiene un'analisi del dataset simulato con fairmodels e gradient boosting con i seguenti steps: 1)fit the model 2)create global and local explanations 3) Bias mitigation. L'analisi è basata sul lavoro di Jakub Wiśniewski: fairmodels advanced Tutorial https://modeloriented.github.io/fairmodels/articles/Advanced_tutorial.html
