@@ -1,5 +1,5 @@
 # Tesi-2022: Discrimination in HR Analytics. A fair Workflow
-Codici e materiale per la tesi "A fair workflow in HR analyics" A.A. 2021/2022 riguardante l'analisi del BIAS nei predictive algorithms in recruitment e HRM utilizzando un test econometrico/statistico per verificare se un algoritmo discrimina un gruppo specifico (S, $sensitive feature$) e agire con tecniche di pre-processing (e.g reweighting) o durante il training dei modelli per ridurre l' $unfairness$ nei confronti della classe protetta.
+Codici e materiale per la tesi "Discrimination in HR Analytics. A fair Workflow" A.A. 2021/2022 riguardante l'analisi del BIAS nei predictive algorithms in recruitment e HRM utilizzando un test econometrico/statistico per verificare se un algoritmo discrimina un gruppo specifico (S, $sensitive feature$) e agire con tecniche di pre-processing (e.g reweighting) o durante il training dei modelli per ridurre l' $unfairness$ nei confronti della classe protetta.
 # Workflow
 
 Generazione dei dati (BIAS nei dati) $\rightarrow$ Fit modelli $\rightarrow$ XAI $\rightarrow$ BIAS mitigation  
