@@ -7,6 +7,8 @@ Generazione dei dati (BIAS nei dati) $\rightarrow$ Fit modelli $\rightarrow$ XAI
 Classificatore $\hat{Y}=f(X,S)$ dove $S$ è la feature protetta e $Y \in [0,1]$
 # Files
 
+- Data description.pdf contiene analisi esplorativa, descrizione del dataset simulato e misure di BIAS nel dataset
+
 - Simulating data.R contiene la simulazione del dataset utilizzato in contesto HRM costruito per discriminare la classe $S_d \in S$ (classe svantaggiata della feature sensibile $S$ )
 
 - LR_RF_SVM_XGBoost.R contiene training dei modelli, performances in training e test set, Model explanation locale e globale, fairness check per i modelli: logistic regression, Random forest, SVM e XGBoost.
