@@ -1,4 +1,4 @@
-# Simple prediction exercise with logistic regression
+# Example: prediction with logistic regression
 # the function reproduces the python code in p.20/21 "Responsible AI"
 # The fairness measures will be evaluated on the test set
 
@@ -9,7 +9,7 @@ data_bias <- read.csv("BIASED_data_29_11_22.csv")
 
 data_bias <- 
   data_bias %>% 
-  mutate(Y= as.factor(Y)) %>%# response as factor
+  mutate(Y= as.factor(Y)) %>% # response as factor
   dplyr::select(-X)
 
 # data split
