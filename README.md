@@ -22,3 +22,5 @@ Classificatore $\hat{Y}=f(X,S)$ dove $S$ è la feature protetta e $Y \in [0,1]$
 - Reweighting the data.R per costruire i pesi custom sulla base del codice python in Responsible AI (https://link.springer.com/book/10.1007/978-3-030-76860-7)
 
 - Fairness_sim_data GBM.R contiene un'analisi del dataset simulato con modello gbm e BIAS mitigation. si utilizza il pacchetto fairmodels e gradient boosting (https://cran.r-project.org/web/packages/gbm/gbm.pdf) con i seguenti steps: 1)fit the model 2)create global and local explanations 3) Bias mitigation. L'analisi è basata sul lavoro di Jakub Wiśniewski: fairmodels advanced Tutorial (https://modeloriented.github.io/fairmodels/articles/Advanced_tutorial.html)
+
+- Slides.pdf contiene la presentazione che sintetizza il lavoro svolto
